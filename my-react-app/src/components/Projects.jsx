@@ -3,6 +3,15 @@ import React from 'react';
 function Projects() {
   const projectList = [
     {
+      id: 5,
+      title: "Weeknight",
+      description: "This project lets someone plan dinners for the week, including recipes they add themselves, and builds a grocery list from the meals they chose.",
+      tags: ["React", "Vite"],
+      href: "https://github.com/mattrlee35/Weeknight",
+      size: "md:col-span-3 md:row-span-1",
+      accent: "from-orange-500/10 to-rose-500/5 border-orange-500/10"
+    },
+    {
       id: 1,
       title: "Portfolio 2023",
       description: "This project serves as a refreshed portfolio website, highlighting my past projects and providing insights about me.",
